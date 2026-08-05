@@ -1,4 +1,5 @@
 def greet():
-    print("Hello, Object-Oriented Programming!")
+    name = input("What is your name? ")
+    print("Hello,", name)
 
 greet()
